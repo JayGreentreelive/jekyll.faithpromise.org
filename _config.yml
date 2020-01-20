@@ -1,11 +1,11 @@
 # Site settings
-title: Faith Promise Church
-email: bradr@faithpromise.org
-description: "A contemporary church with locations in Knoxville, Maryville, Clinton, and La Follette, TN"
+title: Thursday Church
+email: jay@thursdaychurch.org
+description: "Doing church differently"
 baseurl: ""
-url: "http://faithpromise.org"
-twitter_username: faithpromise
-github_username:  faithpromise
+url: "http://thursdaychurch.org"
+twitter_username: Thursday Church
+github_username:  Thursday Church
 
 # Build settings
 destination: ./public
