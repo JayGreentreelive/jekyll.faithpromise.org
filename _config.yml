@@ -3,7 +3,7 @@ title: Thursday Church
 email: jay@thursdaychurch.org
 description: "Doing church differently"
 baseurl: ""
-url: "http://thursdaychurch.org"
+url: "{{ 'assets/css/style.css' | relative_url }}"
 twitter_username: Thursday Church
 github_username:  Thursday Church
 
@@ -12,48 +12,3 @@ destination: ./public
 markdown: kramdown
 exclude: [bower.json, bower_components, Gruntfile.js, node_modules, package.json, TODO.txt, SETUP.md]
 include: ['_pages']
-
-# Collections
-collections:
-  campuses:
-    output: true
-    permalink: /locations/:path/
-  events:
-    output: true
-    permalink: /events/:path/
-  teams:
-    output: false
-  missions:
-    output: false
-  staff:
-    output: true
-    permalink: /staff/:path/
-  ministries:
-    output: true
-    permalink: /:path/
-  events:
-    output: true
-    permalink: /events/:path/
-  series:
-    output: true
-    permalink: /series/:path/
-  videos:
-    output: true
-  topics:
-    output: true
-    permalink: /topics/:path/
-  redirects:
-    output: true
-
-# URLS
-urls:
-  home: /
-  staff: /staff/
-  events: /events/
-  series: /series/
-  mp3: //fpcresources.org/audio/
-
-paths:
-  images: /build/images/
-  series_images: /build/images/series/
-  staff_images: /build/images/staff/
