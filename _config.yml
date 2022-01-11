@@ -1,11 +1,11 @@
 # Site settings
-title: Thursday Church
+title: Mountain Valley Church of God
 email: jay@thursdaychurch.org
-description: "Doing church differently"
+description: ""
 baseurl: ""
-url: "{{ 'assets/css/style.css' | relative_url }}"
-twitter_username: Thursday Church
-github_username:  Thursday Church
+url: "{{ '/' | relative_url }}"
+twitter_username: 
+github_username:  
 
 # Build settings
 destination: ./public
