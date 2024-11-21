@@ -4,7 +4,14 @@ hero_image: /build/images/temp/hero-placeholder.png
 ---
 
 <!--TODO: Add page content-->
+<!-- Latest sermon -->
+{% assign latest_sermon = site.videos | where:'type', 'sermon' | sort: 'publish_on' | reverse | first %}
 
+<!-- Series the latest sermon belongs to -->
+{% assign latest_sermon_series = site.series | where:'ident', latest_sermon.series | first %}
+
+<!-- Output hero -->
+{% include hero-video.html video=latest_sermon series=latest_sermon_series heading='Latest Sermon:' %}
 <div class="CurrentSeries">
 
   <div class="CurrentSeries-imageWrap">
