@@ -1,4 +1,5 @@
 - title: "Home"
+  url: "/"
 - title: "About"
   subnav:
     - title: "What to Expect"
